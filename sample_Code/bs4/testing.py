@@ -16,8 +16,8 @@ from bs4.element import (
     SoupStrainer,
 )
 
-from bs4.builder import HTMLParserTreeBuilder
-default_builder = HTMLParserTreeBuilder
+from bs4.builder import _htmlparser
+default_builder = _htmlparser
 
 
 class SoupTest(unittest.TestCase):
