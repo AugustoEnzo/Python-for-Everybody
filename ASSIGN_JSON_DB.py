@@ -1,7 +1,11 @@
 import json
 import sqlite3
 
+<<<<<<< HEAD
 conn = sqlite3.connect('/home/augenz/PycharmProjects/Python-for-Everybody/SQLite/json.sqlite')
+=======
+conn = sqlite3.connect('/home/ozne/Documents/GitHub/Python for Everybody/SQLite/json.sqlite')
+>>>>>>> origin/main
 cur = conn.cursor()
 
 cur.executescript('''
